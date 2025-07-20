@@ -7,13 +7,13 @@ void problem_3(int i, int n)
     return;
   }
   problem_3(i + 1, n);
-  cout << i << endl;
+  cout << i << " ";
 }
 int main()
 {
   int n;
   cout<<"enter the value"<<endl;
   cin >> n;
-  problem3(n,n);
+  problem_3(1,n);
   return 0;
 }
