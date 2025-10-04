@@ -9,7 +9,7 @@ vector<vector<int>> rotate_by90_matrix_OP(vector<vector<int>> &matrix)
       swap(matrix[i][j], matrix[j][i]);
     }
   }
-  // for reversing rows..
+  // for reversing rows...
   for (int i = 0; i < n; i++){
     reverse(matrix[i].begin(), matrix[i].end());
   }
