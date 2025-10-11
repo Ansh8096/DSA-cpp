@@ -3,7 +3,7 @@ using namespace std;
 vector<int> maj_el_n3_OP(vector<int> &arr){
   int n = arr.size();
   int el1 = 0, el2 = 0, cnt1 = 0, cnt2 = 0;
-  // applying the Extended Boyer Moore's Voting Algorithm:
+  // applying the Extended Boyer Moore's Voting Algorithm:-->
   for (int i = 0; i < n; i++)
   {
     if (cnt1 == 0 && arr[i] != el2)
