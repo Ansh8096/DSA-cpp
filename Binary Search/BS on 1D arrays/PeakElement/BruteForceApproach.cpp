@@ -3,7 +3,7 @@ using namespace std;
 int find_peak_element_BR(vector<int> &a,int n){
   for (int i = 0; i < n; i++)
   {
-    // Checking for the peak:
+    // Checking for the peak:--
     if ((i == 0 || a[i - 1] < a[i]) && (i == n - 1 || a[i + 1] < a[i]))
     {
       return a[i];
