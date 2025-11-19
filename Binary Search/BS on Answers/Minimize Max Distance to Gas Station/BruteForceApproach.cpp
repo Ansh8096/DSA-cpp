@@ -19,7 +19,7 @@ int minimize_max_dist_gaststation_BR(vector<int> &a, int n, int k)
         maxind = i;
       }
     }
-    // insert the current gas station:
+    // insert the current gas station:--
     how_many[maxind]++;
   }
 
