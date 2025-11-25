@@ -6,7 +6,7 @@ double mdn_of_two_sortd_arr_OP(vector<int> &a1, vector<int> &a2){
   // if n1 is bigger swap the arrays:
   if (n2 < n1) return mdn_of_two_sortd_arr_OP(a2, a1);
   int left = (n1 + n2 + 1) / 2; // length of left half
-  int n = n1 + n2;              // total length
+  int n = n1 + n2;              // total length.
   // apply binary search:
   int low = 0;
   int high = n1;
