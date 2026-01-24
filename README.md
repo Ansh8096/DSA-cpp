@@ -38,7 +38,7 @@ DSA-cpp/
 │── README.md
 ```
 
-✅ If you want to explore the topics, simply open the `src/` directory and check each folder.
+✅ If you want to explore the topics, simply open and check each folder.
 
 ---
 
