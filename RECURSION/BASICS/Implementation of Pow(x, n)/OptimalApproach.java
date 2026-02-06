@@ -2,7 +2,7 @@ public class OptimalApproach {
 
     private static double implementing_pow_OP(double x, int n) {
         double ans = 1.0;
-        long n1 = n; // taking copy of n...
+        long n1 = n; // taking copy of n
 
         // when the n is negative...
         if(n1<0) n1 = -1* n1;
